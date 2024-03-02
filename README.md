@@ -1,6 +1,6 @@
 # Vocifere API (in development)
 
-Vocifere is an open-source dictionary api that returns the pronunciation and meaning of a word, as well with it's translation for other languages.
+Vocifere is an open-source dictionary API developed with Spring Boot that returns the pronunciation and meaning of a word, as well with it's translation for other languages.
 
 ### Future requests
 

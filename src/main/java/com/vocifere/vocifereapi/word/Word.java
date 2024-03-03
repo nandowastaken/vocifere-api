@@ -1,6 +1,20 @@
 package com.vocifere.vocifereapi.word;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table
 public class Word {
+    @Id
+    @SequenceGenerator(
+            name = "word_sequence",
+            sequenceName = "word_sequence",
+            allocationSize = 1
+    )
+    @GeneratedValue(
+            strategy = GenerationType.SEQUENCE,
+            generator = "word_sequence"
+    )
     private Long id;
     private String word;
     private String audio;
